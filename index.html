@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amazon - Apple Products</title>
+    <style>
+        body { background: linear-gradient(90deg, rgba(255,175,189,1) 0%, rgba(100,216,243,1) 100%); font-family: Arial, sans-serif; }
+        header { background: #000; color: #fff; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; }
+        header a { color: #fff; text-decoration: none; margin: 0 10px; }
+        .content { padding: 20px; display: flex; flex-wrap: wrap; justify-content: space-around; }
+        .product { width: 30%; margin-bottom: 20px; }
+        .product img { width: 100%; }
+        footer { background: #333; color: #fff; text-align: center; padding: 10px 20px; }
+        .form-section { background: #f0f0f0; padding: 20px; margin-top: 20px; }
+        .form-section h2 { color: #333; }
+        input, textarea { width: 100%; margin-bottom: 10px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; }
+        button { background: #0069d9; color: #fff; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Amazon</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Product</a>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="product">
+            <img src="https://example.com/apple-product-image.jpg" alt="Apple Product">
+            <h3>Apple iPhone 12</h3>
+            <p>Experience transformative speed with the A14 Bionic chip, enhanced dual-camera system, and a sleek, durable design.</p>
+        </div>
+        <!-- Add more products as needed -->
+    </div>
+    <div class="form-section">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <footer>&copy; 2023 Amazon Apple Products</footer>
+</body>
+</html>
